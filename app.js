@@ -52,5 +52,5 @@ app.post('/failure', (req, res) => {
 });
 
 app.listen(port || 3000, () => {
-  console.log('Server is up and running');
+  console.log(`Server is up and running on port ${port || 3000}`);
 });
